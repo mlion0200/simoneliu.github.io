@@ -9,7 +9,7 @@
 
     <script src="https://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
     <script src="https://d3js.org/d3.v3.min.js" type="text/javascript"></script>
-    <script src="tree-boxes.js" type="text/javascript"></script>
+    <script src="tree-boxes-sum.js" type="text/javascript"></script>
   </head>
   <body>
     <div>
@@ -19,7 +19,7 @@
     <div class="container">
         <ct-visualization id="tree-container"></ct-visualization>
         <script>
-            d3.json("mesh1.json", function(error, json) {
+            d3.json("mesh_sum.json", function(error, json) {
                 treeBoxes('', json.tree);
             });
         </script>
