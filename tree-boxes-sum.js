@@ -223,7 +223,7 @@ function treeBoxes(urlService, jsonData)
 					return '<div style="width: '
 							+ (rectNode.width - rectNode.textMargin * 2) + 'px; height: '
 							+ (rectNode.height - rectNode.textMargin * 2) + 'px;" class="node-text wordwrap">'
-							+ '<b>' + d.nodeName + '</b><br><br>'
+							+ '<b>' + d.nodeName + '</b><br>'
 							+ '<b>Code: </b>' + d.code + '<br>'
 							+ '<b>Count: </b>' + d.count + '<br>'
 							+ '<b>Sum Count: </b>' + d.sum_count + '<br>'
