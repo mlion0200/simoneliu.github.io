@@ -28,11 +28,11 @@ function treeBoxes(urlService, jsonData)
 {
 	var urlService_ = '';
 	
-	var blue = '#337ab7',
-		green = '#5cb85c',
-		yellow = '#f0ad4e',
+	var blue = '#ffffb2',
+		green = '#fecc5c',
+		yellow = '#fd8d3c',
 		blueText = '#4ab1eb',
-		purple = '#9467bd';
+		purple = '#e31a1c';
 
 	var margin = {
 					top : 0,
