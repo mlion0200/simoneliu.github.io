@@ -15,13 +15,14 @@
     <div>
         <h1>MeSH Tree 2</h1>
         <span>Publication (2016-2018) of PI as first, second, second from last, and last author in author list, remove Keywords with frequency < 3</span><br>
+        <span>Removed  Anthropology, Education, Sociology and Social Phenomena [I], Technology and Food and Beverages [J], Humanities [K], Publication Characteristics [V], Geographic Locations [Z]</span><br>
         <span>Color Code: Sum Count < 4: blue; 4 <= Sum Count <= 30: green; 31 <= Sum Count <= 300: yello; Sum Count > 300: purple</span><br>
         <span>Transparency: Item Count < 1: 0.25; 1 <= Item Count <= 3: 0.5; 4 <= Item Count <= 10: 0.75; Item Count > 10: 1</span>
     </div>
     <div class="container">
         <ct-visualization id="tree-container"></ct-visualization>
         <script>
-            d3.json("mesh_sum.json", function(error, json) {
+            d3.json("mesh_sum2.json", function(error, json) {
                 treeBoxes('', json.tree);
             });
         </script>
